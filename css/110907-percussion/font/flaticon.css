@@ -1,0 +1,51 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:02
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-chimes-percussion-instrument:before { content: "\f100"; }
+.flaticon-cymbal:before { content: "\f101"; }
+.flaticon-cymbals:before { content: "\f102"; }
+.flaticon-drum:before { content: "\f103"; }
+.flaticon-drum-1:before { content: "\f104"; }
+.flaticon-drum-2:before { content: "\f105"; }
+.flaticon-drum-set:before { content: "\f106"; }
+.flaticon-kettle-drums:before { content: "\f107"; }
+.flaticon-maracas:before { content: "\f108"; }
+.flaticon-maracas-1:before { content: "\f109"; }
+.flaticon-percussion-instrument:before { content: "\f10a"; }
+.flaticon-percussion-music-instrument:before { content: "\f10b"; }
+.flaticon-snare-drums-with-stand:before { content: "\f10c"; }
+.flaticon-sound-bar-with-stick:before { content: "\f10d"; }
+.flaticon-tall-drums-with-stick:before { content: "\f10e"; }
+.flaticon-tambourine:before { content: "\f10f"; }
+.flaticon-timpani-drums:before { content: "\f110"; }
+.flaticon-triangle:before { content: "\f111"; }
+.flaticon-wind-chimes:before { content: "\f112"; }
+.flaticon-xylophone:before { content: "\f113"; }
