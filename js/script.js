@@ -1,6 +1,6 @@
   $(function() {
     $.scrollify({
-      section:".secscroll",
+      section:"#section1",
       scrollbars:false,
       before:function(i,panels) {
   
